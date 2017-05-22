@@ -82,3 +82,7 @@
 2017-05-20 23:07:10.951 [info] <0.31.0> Application exlager started on node nonode@nohost
 2017-05-20 23:07:10.951 [info] <0.31.0> Application dummy started on node nonode@nohost
 2017-05-20 23:07:10.964 [info] <0.31.0> Application ex_unit started on node nonode@nohost
+2017-05-21 18:57:07.486 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 18:57:07.487 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 18:57:07.488 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 18:57:07.488 [info] <0.31.0> Application dummy started on node nonode@nohost

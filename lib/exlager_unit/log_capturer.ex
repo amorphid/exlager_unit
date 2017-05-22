@@ -23,6 +23,7 @@ defmodule LagerUnit.LogCapturer do
   #############
 
   def handle_call({:register_test, test}, _from, state) do
+    _ = Process.monitor(test)
     new_state = MapSet.put(state, test)
     {:reply, :ok, new_state}
   end
@@ -30,6 +31,11 @@ defmodule LagerUnit.LogCapturer do
   def handle_cast({:capture, msg}, state) do
     _ = Enum.map(state, fn pid -> send(pid, msg) end)
     {:noreply, state}
+  end
+
+  def handle_info(.{:DOWN, _ref, :process, pid, :shutdown}, state) do
+    new_state = MapSet.delete(pid)
+    {:noreply, new_state}
   end
 
   def init(_) do

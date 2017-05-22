@@ -86,3 +86,117 @@
 2017-05-21 18:57:07.487 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
 2017-05-21 18:57:07.488 [info] <0.31.0> Application exlager started on node nonode@nohost
 2017-05-21 18:57:07.488 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:23:36.260 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:23:36.266 [error] <0.229.0> CRASH REPORT Process <0.229.0> with 0 neighbours exited with reason: no match of right hand value {'EXIT',{undef,[{'Elixir.LogHandler',init,[[]],[]},{gen_event,server_add_handler,4,[{file,"gen_event.erl"},{line,429}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,270}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}} in 'Elixir.LagerUnit.Application':start/2 line 15 in application_master:init/4 line 134
+2017-05-21 19:23:36.266 [info] <0.31.0> Application exlager_unit exited with reason: no match of right hand value {'EXIT',{undef,[{'Elixir.LogHandler',init,[[]],[]},{gen_event,server_add_handler,4,[{file,"gen_event.erl"},{line,429}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,270}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}} in 'Elixir.LagerUnit.Application':start/2 line 15
+2017-05-21 19:24:18.118 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:24:18.128 [error] <0.193.0> CRASH REPORT Process <0.193.0> with 0 neighbours exited with reason: no match of right hand value {'EXIT',{undef,[{'Elixir.LogHandler',init,[[]],[]},{gen_event,server_add_handler,4,[{file,"gen_event.erl"},{line,429}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,270}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}} in 'Elixir.LagerUnit.Application':start/2 line 14 in application_master:init/4 line 134
+2017-05-21 19:24:18.129 [info] <0.31.0> Application exlager_unit exited with reason: no match of right hand value {'EXIT',{undef,[{'Elixir.LogHandler',init,[[]],[]},{gen_event,server_add_handler,4,[{file,"gen_event.erl"},{line,429}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,270}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}} in 'Elixir.LagerUnit.Application':start/2 line 14
+2017-05-21 19:24:37.281 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:24:37.293 [error] <0.193.0> CRASH REPORT Process <0.193.0> with 0 neighbours exited with reason: no match of right hand value ok in 'Elixir.LagerUnit.Application':start/2 line 15 in application_master:init/4 line 134
+2017-05-21 19:24:37.293 [info] <0.31.0> Application exlager_unit exited with reason: no match of right hand value ok in 'Elixir.LagerUnit.Application':start/2 line 15
+2017-05-21 19:25:04.555 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:25:04.564 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:25:04.568 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:25:04.569 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:27:58.186 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:27:58.188 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:27:58.191 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:27:58.191 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:28:38.661 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:28:38.666 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:28:38.668 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:28:38.668 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:28:38.680 [error] <0.174.0> gen_event 'Elixir.LagerUnit.LogHandler' installed in lager_event terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {log,{lager_msg,[],[{pid,<0.31.0>}],info,{["2017",45,"05",45,"21"],["19",58,"28",58,"38",46,"666"]},{1495,420118,666032},[65,112,112,108,105,99,97,116,105,111,110,32,"exlager_unit",32,115,116,97,114,116,101,100,32,111,110,32,110,111,100,101,32,"nonode@nohost"]}}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2017-05-21 19:29:41.195 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:29:41.200 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:29:41.204 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:29:41.204 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:29:57.075 [info] <0.199.0>@unknown:unknown:4 potato
+2017-05-21 19:39:55.189 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:39:55.193 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:39:55.198 [error] <0.180.0> gen_event 'Elixir.LagerUnit.LogHandler' installed in lager_event terminated with reason: {'module could not be loaded',[{'Elixir.LogCapturer',capture,[<<"Application exlager_unit started on node nonode@nohost">>],[]},{'Elixir.LagerUnit.LogHandler',handle_event,2,[{file,"lib/exlager_unit/log_handler.ex"},{line,9}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,533}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,515}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,256}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-21 19:39:55.198 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:39:55.198 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:42:40.528 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:42:40.539 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:42:40.540 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:42:40.540 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:42:40.546 [error] <0.164.0> gen_event 'Elixir.LagerUnit.LogHandler' installed in lager_event terminated with reason: {'module could not be loaded',[{'Elixir.LogCapturer',capture,[<<"Application exlager_unit started on node nonode@nohost">>],[]},{'Elixir.LagerUnit.LogHandler',handle_event,2,[{file,"lib/exlager_unit/log_handler.ex"},{line,9}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,533}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,515}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,256}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-21 19:45:44.985 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:45:44.994 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:45:44.998 [error] <0.174.0> gen_event 'Elixir.LagerUnit.LogHandler' installed in lager_event terminated with reason: {'module could not be loaded',[{'Elixir.LogCapturer',capture,[<<"Application exlager_unit started on node nonode@nohost">>],[]},{'Elixir.LagerUnit.LogHandler',handle_event,2,[{file,"lib/exlager_unit/log_handler.ex"},{line,9}]},{gen_event,server_update,4,[{file,"gen_event.erl"},{line,533}]},{gen_event,server_notify,4,[{file,"gen_event.erl"},{line,515}]},{gen_event,handle_msg,5,[{file,"gen_event.erl"},{line,256}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-21 19:45:44.999 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:45:44.999 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:46:50.983 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:46:50.988 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:46:50.989 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:46:50.990 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:46:51.002 [error] <0.196.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: bad return value: {ok,#{}}
+2017-05-21 19:46:51.002 [error] <0.196.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: bad return value: {ok,#{}} in gen_server:terminate/7 line 812
+2017-05-21 19:46:51.038 [error] <0.195.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.196.0> exit with reason bad return value: {ok,#{}} in context child_terminated
+2017-05-21 19:46:51.038 [error] <0.200.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: bad return value: {ok,#{}}
+2017-05-21 19:46:51.038 [error] <0.200.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: bad return value: {ok,#{}} in gen_server:terminate/7 line 812
+2017-05-21 19:46:51.038 [error] <0.195.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.200.0> exit with reason bad return value: {ok,#{}} in context child_terminated
+2017-05-21 19:46:51.038 [error] <0.201.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: bad return value: {ok,#{}}
+2017-05-21 19:46:51.038 [error] <0.201.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: bad return value: {ok,#{}} in gen_server:terminate/7 line 812
+2017-05-21 19:46:51.038 [error] <0.195.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.201.0> exit with reason bad return value: {ok,#{}} in context child_terminated
+2017-05-21 19:46:51.045 [error] <0.203.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: bad return value: {ok,#{}}
+2017-05-21 19:46:51.045 [error] <0.203.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: bad return value: {ok,#{}} in gen_server:terminate/7 line 812
+2017-05-21 19:46:51.046 [error] <0.195.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.203.0> exit with reason bad return value: {ok,#{}} in context child_terminated
+2017-05-21 19:46:51.046 [error] <0.195.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.203.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-05-21 19:46:51.051 [info] <0.31.0> Application exlager_unit exited with reason: shutdown
+2017-05-21 19:48:27.948 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:48:27.959 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:48:27.962 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:48:27.963 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:48:27.971 [error] <0.186.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: bad return value: {ok,#{}}
+2017-05-21 19:48:27.971 [error] <0.186.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: bad return value: {ok,#{}} in gen_server:terminate/7 line 812
+2017-05-21 19:48:28.014 [error] <0.185.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.186.0> exit with reason bad return value: {ok,#{}} in context child_terminated
+2017-05-21 19:48:28.014 [error] <0.190.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: bad return value: {ok,#{}}
+2017-05-21 19:48:28.014 [error] <0.190.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: bad return value: {ok,#{}} in gen_server:terminate/7 line 812
+2017-05-21 19:48:28.014 [error] <0.185.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.190.0> exit with reason bad return value: {ok,#{}} in context child_terminated
+2017-05-21 19:48:28.019 [error] <0.191.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: bad return value: {ok,#{}}
+2017-05-21 19:48:28.020 [error] <0.191.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: bad return value: {ok,#{}} in gen_server:terminate/7 line 812
+2017-05-21 19:48:28.020 [error] <0.185.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.191.0> exit with reason bad return value: {ok,#{}} in context child_terminated
+2017-05-21 19:48:28.028 [error] <0.192.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: bad return value: {ok,#{}}
+2017-05-21 19:48:28.029 [error] <0.192.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: bad return value: {ok,#{}} in gen_server:terminate/7 line 812
+2017-05-21 19:48:28.029 [error] <0.185.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.192.0> exit with reason bad return value: {ok,#{}} in context child_terminated
+2017-05-21 19:48:28.029 [error] <0.185.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.192.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-05-21 19:48:28.031 [info] <0.31.0> Application exlager_unit exited with reason: shutdown
+2017-05-21 19:50:51.642 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:50:51.646 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:50:51.647 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:50:51.647 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:51:08.207 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:51:08.215 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:51:08.216 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:51:08.216 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:52:09.909 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:52:09.913 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:52:09.917 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:52:09.917 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 19:52:42.241 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 19:52:42.245 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 19:52:42.246 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 19:52:42.246 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 21:19:22.257 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 21:19:22.257 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 21:19:22.257 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 21:19:38.122 [info] <0.201.0>@unknown:unknown:3 lol
+2017-05-21 21:20:23.285 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 21:20:23.286 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 21:20:23.286 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 21:20:33.007 [info] <0.172.0>@unknown:unknown:2 lol
+2017-05-21 21:21:23.839 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 21:21:23.839 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 21:21:23.839 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 21:21:42.890 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 21:21:42.893 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 21:21:42.896 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 21:21:42.897 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 21:22:14.011 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-21 21:22:14.014 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-21 21:22:14.015 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-21 21:22:14.015 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-21 21:22:33.927 [info] <0.205.0>@unknown:unknown:3 hehe

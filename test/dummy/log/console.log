@@ -200,3 +200,30 @@
 2017-05-21 21:22:14.015 [info] <0.31.0> Application exlager started on node nonode@nohost
 2017-05-21 21:22:14.015 [info] <0.31.0> Application dummy started on node nonode@nohost
 2017-05-21 21:22:33.927 [info] <0.205.0>@unknown:unknown:3 hehe
+2017-05-22 06:43:00.635 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-22 06:43:00.635 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-22 06:43:00.635 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-22 06:44:28.473 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-22 06:44:28.481 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-22 06:44:28.484 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-22 06:44:28.484 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-22 06:45:19.150 [error] <0.196.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>} in 'Elixir.LagerUnit.LogCapturer':handle_call/3 line 559
+2017-05-22 06:45:19.151 [error] <0.196.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>} in 'Elixir.LagerUnit.LogCapturer':handle_call/3 line 559 in gen_server:terminate/7 line 812
+2017-05-22 06:45:19.151 [error] <0.195.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.196.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>} in 'Elixir.LagerUnit.LogCapturer':handle_call/3 line 559 in context child_terminated
+2017-05-22 06:45:44.527 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-22 06:45:44.533 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-22 06:45:44.534 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-22 06:45:44.534 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-22 06:46:51.434 [error] <0.196.0> gen_server 'Elixir.LagerUnit.LogCapturer' terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>} in 'Elixir.LagerUnit.LogCapturer':handle_call/3 line 559
+2017-05-22 06:46:51.435 [error] <0.196.0> CRASH REPORT Process 'Elixir.LagerUnit.LogCapturer' with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>} in 'Elixir.LagerUnit.LogCapturer':handle_call/3 line 559 in gen_server:terminate/7 line 812
+2017-05-22 06:46:51.435 [error] <0.195.0> Supervisor 'Elixir.LagerUnit.Supervisor' had child 'Elixir.LagerUnit.LogCapturer' started with 'Elixir.LagerUnit.LogCapturer':start_link() at <0.196.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>} in 'Elixir.LagerUnit.LogCapturer':handle_call/3 line 559 in context child_terminated
+2017-05-22 06:47:29.899 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-22 06:47:29.905 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-22 06:47:29.907 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-22 06:47:29.908 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-22 06:48:01.934 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-22 06:48:01.940 [info] <0.31.0> Application exlager_unit started on node nonode@nohost
+2017-05-22 06:48:01.942 [info] <0.31.0> Application exlager started on node nonode@nohost
+2017-05-22 06:48:01.943 [info] <0.31.0> Application dummy started on node nonode@nohost
+2017-05-22 06:49:09.280 [info] <0.199.0>@unknown:unknown:7 potato
+2017-05-22 06:51:15.505 [info] <0.199.0>@unknown:unknown:14 fuck_yes

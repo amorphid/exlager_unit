@@ -296,3 +296,59 @@
      Reason:     reached_max_restart_intensity
      Offender:   [{pid,<0.192.0>},{id,'Elixir.LagerUnit.LogCapturer'},{mfargs,{'Elixir.LagerUnit.LogCapturer',start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
+2017-05-22 06:45:19 =ERROR REPORT====
+** Generic server 'Elixir.LagerUnit.LogCapturer' terminating 
+** Last message in was {register_test,<0.199.0>}
+** When Server state == #{'__struct__' => 'Elixir.MapSet',map => #{}}
+** Reason for termination == 
+** {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>},[{'Elixir.LagerUnit.LogCapturer',handle_call,3,[{file,"lib/gen_server.ex"},{line,559}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-22 06:45:19 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.LagerUnit.LogCapturer:init/1
+    pid: <0.196.0>
+    registered_name: 'Elixir.LagerUnit.LogCapturer'
+    exception exit: {{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>},[{'Elixir.LagerUnit.LogCapturer',handle_call,3,[{file,"lib/gen_server.ex"},{line,559}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: ['Elixir.LagerUnit.Supervisor',<0.194.0>]
+    messages: []
+    links: [<0.195.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 339
+  neighbours:
+2017-05-22 06:45:19 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.LagerUnit.Supervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>},[{'Elixir.LagerUnit.LogCapturer',handle_call,3,[{file,"lib/gen_server.ex"},{line,559}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.196.0>},{id,'Elixir.LagerUnit.LogCapturer'},{mfargs,{'Elixir.LagerUnit.LogCapturer',start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-05-22 06:46:51 =ERROR REPORT====
+** Generic server 'Elixir.LagerUnit.LogCapturer' terminating 
+** Last message in was {register_test,<0.201.0>}
+** When Server state == #{'__struct__' => 'Elixir.MapSet',map => #{}}
+** Reason for termination == 
+** {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>},[{'Elixir.LagerUnit.LogCapturer',handle_call,3,[{file,"lib/gen_server.ex"},{line,559}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-22 06:46:51 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.LagerUnit.LogCapturer:init/1
+    pid: <0.196.0>
+    registered_name: 'Elixir.LagerUnit.LogCapturer'
+    exception exit: {{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>},[{'Elixir.LagerUnit.LogCapturer',handle_call,3,[{file,"lib/gen_server.ex"},{line,559}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: ['Elixir.LagerUnit.Supervisor',<0.194.0>]
+    messages: []
+    links: [<0.195.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 354
+  neighbours:
+2017-05-22 06:46:51 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.LagerUnit.Supervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer LagerUnit.LogCapturer but no handle_call/3 clause was provided">>},[{'Elixir.LagerUnit.LogCapturer',handle_call,3,[{file,"lib/gen_server.ex"},{line,559}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.196.0>},{id,'Elixir.LagerUnit.LogCapturer'},{mfargs,{'Elixir.LagerUnit.LogCapturer',start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
